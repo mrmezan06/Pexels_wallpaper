@@ -94,6 +94,7 @@ class _MainUIState extends State<MainUI> {
                   children: <Widget>[
                     Expanded(
                         child: TextField(
+                          textAlign: TextAlign.center,
                       controller: searchController,
                       decoration: const InputDecoration(
                           hintText: "search wallpapers",
@@ -119,7 +120,6 @@ class _MainUIState extends State<MainUI> {
               ),
               Container(
                 height: 80,
-                color: Colors.red,
                 child: ListView.builder(
                     padding: const EdgeInsets.symmetric(horizontal: 24),
                     itemCount: categories.length,
@@ -230,8 +230,8 @@ class CategoriesTile extends StatelessWidget {
                 borderRadius: BorderRadius.circular(8),
                 child:CachedNetworkImage(
                   imageUrl: imgUrls,
-                  height: 50,
-                  width: 100,
+                  height: 80,
+                  width: 120,
                   fit: BoxFit.cover,
                 )),
             Container(

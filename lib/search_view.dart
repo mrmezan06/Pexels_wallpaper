@@ -86,6 +86,7 @@ class _SearchViewState extends State<SearchView> {
                   children: <Widget>[
                     Expanded(
                         child: TextField(
+                          textAlign: TextAlign.center,
                       controller: searchController,
                       decoration: const InputDecoration(
                           hintText: "search wallpapers",
