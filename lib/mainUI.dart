@@ -102,6 +102,7 @@ class _MainUIState extends State<MainUI> {
                     )),
                     InkWell(
                         onTap: () {
+                          FocusManager.instance.primaryFocus?.unfocus();
                           if (searchController.text != "") {
                             Navigator.push(
                                 context,

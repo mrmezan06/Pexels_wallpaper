@@ -94,6 +94,7 @@ class _SearchViewState extends State<SearchView> {
                     )),
                     InkWell(
                         onTap: () {
+                          FocusManager.instance.primaryFocus?.unfocus();
                           fetchJson(searchController.text).then((value) {
                             setState(() {
                               _photos = [];
