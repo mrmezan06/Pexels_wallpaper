@@ -1,16 +1,18 @@
 # pexels_wallpaper
 
-A new Flutter project.
-
+## [Pexels Wallpaper](https://www.pexels.com/)
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- ### Splash Screen
+        - <img src="splashscreen.png" height="600" width="300" max-width="70%">
+- ### Home Screen
+        - <img src="homescreen.png" height="600" width="300" max-width="70%">
+- ### Horizontal Scroll View
+        - <img src="scrollview.png" height="600" width="300" max-width="70%">
+- ### Category View
+        - <img src="categoryview.png" height="600" width="300" max-width="70%">
+- ### Search Image View
+        - <img src="searchimageview.png" height="600" width="300" max-width="70%">
+- ### Single Image View
+        - <img src="imageview.png" height="600" width="300" max-width="70%">
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
