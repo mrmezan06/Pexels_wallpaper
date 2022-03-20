@@ -113,7 +113,7 @@ class ImageUI extends StatelessWidget {
                 ),
                 InkWell(
                   onTap: () {
-                    _save(context, imageObject.src.portrait
+                    _save(context, imageObject.src.original
                     );
 
                     //Navigator.pop(context);
