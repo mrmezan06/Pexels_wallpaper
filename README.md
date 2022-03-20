@@ -1,6 +1,6 @@
 # pexels_wallpaper
 
-## [Pexels Wallpaper](https://www.pexels.com/)
+#### Checkout of [Pexels Wallpaper](https://www.pexels.com/)
 ## Getting Started
 
 - ### Splash Screen
